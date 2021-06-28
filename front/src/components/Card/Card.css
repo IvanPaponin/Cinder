@@ -1,0 +1,64 @@
+.card {
+  text-align: center;
+}
+.dws-wrapper {
+  border-radius: 5%;  
+  max-width: 400px;
+  background-color: rgb(89, 67, 93);
+  position: relative;
+  background: linear-gradient(20deg, rgb(159, 147, 161), rgb(62, 3, 172));
+  overflow: hidden;
+}
+.dws-wrapper a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dws-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 20px;
+  opacity: 0;
+  z-index: 100;
+  transition: 0.5s ease;
+}
+.dws-text h2 {
+  font-size: 40px;
+}
+.dws-text p {
+  font-size: 14px;
+}
+.dws-wrapper a:before,
+.dws-wrapper a:after {
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  transition: 0.5s ease-in-out;
+
+;
+}
+.dws-wrapper a:before {
+  right: 0;
+  bottom: -100%;
+  transform: skew(-45deg) translateX(100%);
+}
+
+.dws-wrapper a:after {
+  left: 0;
+  top: -150%;
+  background: rgba(0, 0, 0, 0.8);
+  transform: skew(135deg) translateX(-100%);
+
+}
+.dws-wrapper:hover a:before {
+  transform: skew(-45deg) translateX(0%);
+}
+.dws-wrapper:hover a:after {
+  transform: skew(135deg) translateX(0%);
+}
+.dws-wrapper:hover .dws-text {
+  opacity: 1;
+} 

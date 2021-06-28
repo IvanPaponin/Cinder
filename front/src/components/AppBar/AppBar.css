@@ -1,0 +1,31 @@
+/* Добавить черный цвет фона для верхней навигации */
+.topnav {
+  background-color: #564f6f;
+  overflow: hidden;
+}
+
+/* Стиль ссылок внутри панели навигации */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Изменение цвета ссылок при наведении курсора */
+.topnav a:hover {
+  background-color: rgba(174, 151, 175, 0.63);
+  color: black;
+}
+
+/* Добавить цвет для активной/текущей ссылки */
+.topnav a.active {
+  background-color: #802bb1;
+  color: white;
+}
+
+.right {
+  float: right;
+}

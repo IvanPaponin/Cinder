@@ -1,0 +1,46 @@
+.wrapper {
+  padding-top: 40px;
+}
+
+.boxGame {
+  font-size: 38px;
+  text-align: center;
+  font-weight: 300;
+  box-shadow: 2px 2px 5px 0 #802bb1;
+  transition: 1s;
+  border: 2px solid #802bb1;
+  position: relative;
+  margin-bottom: 5px;
+  text-indent: 0px;
+  cursor: pointer;
+  border-radius: 5%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  background-color: #4c494c;
+}
+
+.divWithButtons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.divBut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+}
+/* ------------------- увеличение ---------------- */
+.swing:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ----------------------------------- */
