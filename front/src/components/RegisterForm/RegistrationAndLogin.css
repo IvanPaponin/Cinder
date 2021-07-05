@@ -1,0 +1,20 @@
+.divReg {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #564f6f;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 35vw;
+  height: 62vh;
+  margin-top: 100px;
+
+}
+.googleBut {
+  background-color: #564f6f !important;
+  margin: auto;
+  color: #ffffff !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+}

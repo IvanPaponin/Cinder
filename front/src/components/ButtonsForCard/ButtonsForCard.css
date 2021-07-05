@@ -1,0 +1,66 @@
+body {
+  /* display: grid; */
+}
+
+.wrapper {
+  padding-top: 40px;
+  /* padding-left: 10px; */
+}
+
+.boxGame {
+  text-align: center;
+  box-shadow: 2px 2px 5px 0 #802bb1;
+  transition: 1s;
+  border: 2px solid #802bb1;
+  position: relative;
+  /* margin-bottom: 5px; */
+  text-indent: 0px;
+  cursor: pointer;
+  border-radius: 5%;
+  padding-top: 20px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  min-width: 30vw;
+  max-width: 30vw;
+  min-height: 20vh;
+  min-height: 80vh;
+}
+
+.divWithButtons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.divBut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+}
+/* ------------------- увеличение ---------------- */
+.swing:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.topSwing {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* ----------------------------------- */
+
+.but {
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: center;
+  width: 30vw;
+  height: 80vh;
+}

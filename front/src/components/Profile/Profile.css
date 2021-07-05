@@ -1,0 +1,55 @@
+.divProfile {
+  text-align: center;
+  margin-top: 7vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #564f6f;
+  width: 25vw;
+  height: 100vh;
+}
+
+.MuiInputBase-root {
+  color: unset !important;
+}
+/* .input {
+  color: white !important;
+} */
+
+.divProfile2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #ff6781;
+  width: 25vw;
+  height: 100vh;
+}
+
+h4 {
+  /* margin-top: 50px; */
+}
+
+.twoComp {
+  display: flex;
+  justify-content: center;
+}
+
+.profileInfo {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.spanOfProfile {
+  color: orange;
+  padding: 10px;
+}
+
+.spanOfProfile2 {
+  color: purple;
+  padding: 10px;
+}
+
+.spanTwo {
+  color: white;
+  font-size: 18px;
+}

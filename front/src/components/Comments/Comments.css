@@ -1,0 +1,11 @@
+.divCom {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #564f6f;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 68vw;
+  height: 54vh;
+}

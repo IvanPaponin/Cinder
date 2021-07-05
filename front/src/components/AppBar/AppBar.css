@@ -1,0 +1,66 @@
+/* Добавить черный цвет фона для верхней навигации */
+.topnav {
+  background-color: #564f6f;
+  overflow: hidden;
+  
+}
+
+.topnav2 {
+  background-color: #ff6781;
+  overflow: hidden;
+}
+
+/* Стиль ссылок внутри панели навигации */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.topnav2 a {
+  float: left;
+  color: #4b0082;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Изменение цвета ссылок при наведении курсора */
+.topnav a:hover {
+  background-color: rgba(174, 151, 175, 0.63);
+  color: black;
+}
+
+.topnav2 a:hover {
+  background-color: rgba(174, 151, 175, 0.63);
+  color: #ee82ee;
+}
+
+/* Добавить цвет для активной/текущей ссылки */
+.topnav a.active {
+  background-color: #802bb1;
+  color: white;
+}
+
+.topnav2 a.active {
+  background-color: #802bb1;
+  color: #4b0082;
+}
+
+.right {
+  float: right;
+}
+.switch {
+  margin-top: 8px;
+}
+.topnav img {
+  max-width: 40px;
+  max-height: 40px;
+
+}
